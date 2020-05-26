@@ -14,7 +14,6 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-
 namespace LegalBotTest.Dialogs
 {
     public class UserRegistrationDialog : ComponentDialog
@@ -35,11 +34,13 @@ namespace LegalBotTest.Dialogs
             var waterfallSteps = new WaterfallStep[]
             {
                 LanguageStepAsync,
+                AccessStepAsync,
                 NameStepAsync,
                 CountyStepAsync,
                 SubCountyStepAsync,
                 WardStepAsync,
-                //SummaryStepAsync,
+                UserNameStepAsync,
+                PasswordStepAsync,
                 MainMenuStepAsync
 
             };
@@ -47,10 +48,13 @@ namespace LegalBotTest.Dialogs
             //Add Named Dialogs
             AddDialog(new WaterfallDialog($"{nameof(UserRegistrationDialog)}.mainFlow", waterfallSteps));
             AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.language"));
+            AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.access"));
             AddDialog(new TextPrompt($"{nameof(UserRegistrationDialog)}.name"));  //, ServiceDateValidationAsync
             AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.county")); //ServiceTimeValidationAsync));
             AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.subCounty")); //PurchaseAmountValidationAsync));
             AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.ward"));
+            AddDialog(new TextPrompt($"{nameof(UserRegistrationDialog)}.userName"));
+            AddDialog(new TextPrompt($"{nameof(UserRegistrationDialog)}.password"));
             AddDialog(new ChoicePrompt($"{nameof(UserRegistrationDialog)}.mainMenu"));
 
 
@@ -71,9 +75,22 @@ namespace LegalBotTest.Dialogs
                     Choices = ChoiceFactory.ToChoices(new List<string> { "KISWAHILI/KISWAHILI","KINGEREZA/ENGLISH"}),
                 }, cancellationToken);
         }
+
+        private async Task<DialogTurnResult> AccessStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
+            stepContext.Values["language"] = ((FoundChoice)stepContext.Result).Value;
+
+            return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.access",
+
+                new PromptOptions
+                {
+                    Prompt = MessageFactory.Text("If you have an account please log in. New to this service first create an account"),
+                    Choices = ChoiceFactory.ToChoices(new List<string> { "SIGN UP ", "LOG IN" }),
+                }, cancellationToken);
+        }
         private async Task<DialogTurnResult> NameStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            stepContext.Values["language"] = (FoundChoice)stepContext.Result;
+            stepContext.Values["access"] = ((FoundChoice)stepContext.Result).Value;
 
             return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.name",
                 new PromptOptions
@@ -85,92 +102,80 @@ namespace LegalBotTest.Dialogs
         private async Task<DialogTurnResult> CountyStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             //Get location information
-             
-
-
+            var counties = GetLocations("county");
             //Filter for administrative location 
-
-
             //We'll need present list to user
-            
-            
-            
-            
-            
-            
-            
+           
             stepContext.Values["name"] = (string)stepContext.Result;
 
             return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.county",
                 new PromptOptions
                 {
                     Prompt = MessageFactory.Text("Which county do you live in?"),
-                    Choices = ChoiceFactory.ToChoices(new List<string> { "Nairobi", "Mombasa", "Kilifi", "Kiambu","Nyanza","Kajiado"}),
+                    //Choices = ChoiceFactory.ToChoices(new List<string> { "Nairobi", "Mombasa", "Kilifi", "Kiambu","Nyanza","Kajiado"}),
+                    Choices = ChoiceFactory.ToChoices(counties),
                 }, cancellationToken);
         }
 
             private async Task<DialogTurnResult> SubCountyStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            stepContext.Values["county"] = ((FoundChoice)stepContext.Result).Value;
+            string result = ((FoundChoice)stepContext.Result).Value;
+            stepContext.Values["county"] = result;
+            
+            var subCounties = GetLocations("constituency","county",result);
 
             return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.subCounty",
                 new PromptOptions
                 {
-                    Prompt = MessageFactory.Text("Which sub-county do you are you located at?"),
-                    Choices = ChoiceFactory.ToChoices(new List<string> {"Kamkunji","Embakasi West","Westlands","Dagoretti South","Kibra","Mathare"}),
+                    Prompt = MessageFactory.Text("Which sub-county are you located at?"),
+                    //Choices = ChoiceFactory.ToChoices(new List<string> {"Kamkunji","Embakasi West","Westlands","Dagoretti South","Kibra","Mathare"}),
+                    Choices = ChoiceFactory.ToChoices(subCounties),
                 }, cancellationToken);
         }
 
         private async Task<DialogTurnResult> WardStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            stepContext.Values["subCounty"] = ((FoundChoice)stepContext.Result).Value;
+            string result = ((FoundChoice)stepContext.Result).Value;
+            stepContext.Values["subCounty"] = result;
+
+            var wards = GetLocations("ward", "constituency", result);
 
             return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.ward",
                 new PromptOptions
                 {
                     Prompt = MessageFactory.Text("Which ward do you live in?"),
-                    Choices = ChoiceFactory.ToChoices(new List<string> {"Eastleigh North","Eastleigh South","Pumwani/Shauri Moyo","Califonia","Airbase"}),
+                    Choices = ChoiceFactory.ToChoices(wards),
                 }, cancellationToken);
         }
 
-       //private List<string> GetLocations(string administrativeKey, string filterKey = null, string filterValue  = null)
-       // {
-       //     //Source
-       //     var file = AppContext.BaseDirectory + "/files/locations.json";
-       //     //Read values and convert to json
-       //     var locations = JsonConvert.DeserializeObject<JArray>(File.ReadAllText(file));
+        private async Task<DialogTurnResult> UserNameStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
+           
+            stepContext.Values["ward"] = ((FoundChoice)stepContext.Result).Value;
+         
+            return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.userName",
+                new PromptOptions
+                {
+                    Prompt = MessageFactory.Text("Enter preferred username "),
+                }, cancellationToken);
+        }
 
-       //     var json = @"{
-       //                     "id": "554",
-       //                     "ward": "NGENDA",
-       //                     "constituency": "GATUNDU SOUTH",
-       //                     "county": "KIAMBU",
-       //                     "country": "Kenya",
-       //                     "lat": "-1.00777276516811",
-       //                     "long": "36.8982576650519",
-       //                     "sublocation": "Kiminyu"
-       //                 }"
+        private async Task<DialogTurnResult> PasswordStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
 
-       //     var items = new List<string>();
+            stepContext.Values["userName"] = (string)stepContext.Result;
 
-       //     //Loop though array
-       //     foreach(var obj in locations)
-       //     {
-       //         if (filterKey != null && obj.Value<sring>(filterKey) != filterValue)
-       //                continue;
-
-       //         items.Add(obj.Value<string>(administrativeKey));
-             
-       //     }
-       //     return items;
-       // }
-
-
+            return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.password",
+                new PromptOptions
+                {
+                    Prompt = MessageFactory.Text("Enter a unique pasword"),
+                }, cancellationToken);
+        }
 
 
         private async Task<DialogTurnResult> MainMenuStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            stepContext.Values["ward"] = ((FoundChoice)stepContext.Result).Value;
+            stepContext.Values["password"] = (string)stepContext.Result;
 
             //Get the current profile object from user state.
             var userProfile = await _botStateService.UserProfileAccessor.GetAsync(stepContext.Context, () => new UserProfile(), cancellationToken);
@@ -180,6 +185,9 @@ namespace LegalBotTest.Dialogs
             userProfile.County = (string)stepContext.Values["county"];
             userProfile.SubCounty = (string)stepContext.Values["subCounty"];
             userProfile.Ward = (string)stepContext.Values["ward"];
+            userProfile.UserName = (string)stepContext.Values["userName"];
+            userProfile.Password = (string)stepContext.Values["password"];
+
 
             //Show summary to the user
             await stepContext.Context.SendActivityAsync(MessageFactory.Text($"Here is the summary of your personal details:"), cancellationToken);
@@ -187,10 +195,23 @@ namespace LegalBotTest.Dialogs
             await stepContext.Context.SendActivityAsync(MessageFactory.Text(String.Format("County: {0}", userProfile.County)), cancellationToken);
             await stepContext.Context.SendActivityAsync(MessageFactory.Text(String.Format("Subcounty: {0}", userProfile.SubCounty)), cancellationToken);
             await stepContext.Context.SendActivityAsync(MessageFactory.Text(String.Format("Ward: {0}", userProfile.Ward)), cancellationToken);
+            await stepContext.Context.SendActivityAsync(MessageFactory.Text(String.Format("Your Username: {0}", userProfile.UserName)), cancellationToken);
             await stepContext.Context.SendActivityAsync(MessageFactory.Text(String.Format("Congratulations {0}! You are now registered to use our service. Please choose (1.MAIN MENU ) to continue using the service.",userProfile.Name)), cancellationToken);
 
             //save data in userstate
             await _botStateService.UserProfileAccessor.SetAsync(stepContext.Context, userProfile);
+
+            var userDetails = JsonConvert.SerializeObject(userProfile, Formatting.Indented);
+            var filePath = @".\Resources\userDetails.json";
+
+            if (!File.Exists(filePath))
+            {
+                File.WriteAllText(filePath, userDetails);
+            }
+            else
+            {
+                File.AppendAllText(filePath, userDetails);
+            }
 
             return await stepContext.PromptAsync($"{nameof(UserRegistrationDialog)}.mainMenu",
                 new PromptOptions
@@ -206,6 +227,29 @@ namespace LegalBotTest.Dialogs
         }
 
 
+        private List<string> GetLocations(string administrativeKey, string filterKey = null, string filterValue = null)
+        {
+            //Source
+            //var file = AppContext.BaseDirectory + "/files/locations.json";
+            var file = @".\Resources\locations.json"; 
+         //Read values and convert to json
+         var locations = JsonConvert.DeserializeObject<JArray>(File.ReadAllText(file));
+
+
+             var items = new List<string>();
+
+             //Loop through array
+             foreach(var obj in locations)
+             {
+                 if (filterKey != null && obj.Value<string>(filterKey) != filterValue)
+                {
+                    continue;
+                }
+                 items.Add(obj.Value<string>(administrativeKey));
+
+             }
+             return items.Distinct().ToList();
+         }
 
     }
 }

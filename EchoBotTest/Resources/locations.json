@@ -1,0 +1,778 @@
+[
+  {
+    "ward": "KIAMWANGI",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.4800000190734863",
+    "long": "36.08000183105469",
+    "sublocation": "Kiamwangi"
+  },
+  {
+    "ward": "KIAMWANGI",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.0299999713897705",
+    "long": "36.849998474121094",
+    "sublocation": "Nembu"
+  },
+  {
+    "ward": "KIAMWANGI",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.0299999713897705",
+    "long": "36.880001068115234",
+    "sublocation": "Gathage"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.0499999523162842",
+    "long": "36.91999816894531",
+    "sublocation": "Kahuguini"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.00777276516811",
+    "long": "36.8982576650519",
+    "sublocation": "Gathage"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.00777276516811",
+    "long": "36.8982576650519",
+    "sublocation": "Kiminyu"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.00777276516811",
+    "long": "36.8982576650519",
+    "sublocation": "Githunguchu"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.9200000166893005",
+    "long": "37.02000045776367",
+    "sublocation": "Kirangari"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.00777276516811",
+    "long": "36.8982576650519",
+    "sublocation": "Mukowe"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.5499999523162842",
+    "long": "36.91999816894531",
+    "sublocation": "Wamwangi"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.100000023841858",
+    "long": "36.91999816894531",
+    "sublocation": "Ituru"
+  },
+
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.9800000190734863",
+    "long": "36.869998931884766",
+    "sublocation": "Handege"
+  },
+  {
+    "id": "554",
+    "ward": "NGENDA",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.100000023841858",
+    "long": "36.91999816894531",
+    "sublocation": "Ritho"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Karinga"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Gitwe"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Karatu"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Munyuini"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Kirangi"
+  },
+  {
+    "id": "553",
+    "ward": "NDARUGO",
+    "constituency": "GATUNDU SOUTH",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.912825427302674",
+    "long": "36.7608305184167",
+    "sublocation": "Gacharage"
+  },
+  {
+    "id": "566",
+    "ward": "HOSPITAL",
+    "constituency": "THIKA TOWN",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.06149408632796",
+    "long": "37.1363964570341"
+  },
+  {
+    "id": "569",
+    "ward": "GITOTHUA",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.12901658698855",
+    "long": "36.9133193335103"
+  },
+  {
+    "id": "567",
+    "ward": "GATUANYAGA",
+    "constituency": "THIKA TOWN",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.07864151699844",
+    "long": "37.1793263435982"
+  },
+  {
+    "id": "570",
+    "ward": "BIASHARA",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.15148225666068",
+    "long": "36.9495727691452"
+  },
+  {
+    "id": "571",
+    "ward": "GATONGORA",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.19635011861896",
+    "long": "37.0504707510743"
+  },
+  {
+    "id": "572",
+    "ward": "KAHAWA/SUKARI",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.19429742120824",
+    "long": "36.9463677589253"
+  },
+  {
+    "id": "573",
+    "ward": "KAHAWA WENDANI",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.19671693030494",
+    "long": "36.9273753210212"
+  },
+  {
+    "id": "579",
+    "ward": "IKINU",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.10392378546244",
+    "long": "36.8035975946252"
+  },
+  {
+    "id": "574",
+    "ward": "KIUU",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.20779016993274",
+    "long": "36.9332276690149"
+  },
+  {
+    "id": "577",
+    "ward": "GITHUNGURI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.06363884393895",
+    "long": "36.7800253278188",
+    "sublocation": "Githunguri"
+  },
+  {
+    "id": "577",
+    "ward": "GITHUNGURI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.06363884393895",
+    "long": "36.7800253278188",
+    "sublocation": "Kiairia"
+  },
+  {
+    "id": "577",
+    "ward": "GITHUNGURI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.06363884393895",
+    "long": "36.7800253278188",
+    "sublocation": "Kanjai"
+  },
+
+  {
+    "id": "575",
+    "ward": "MWIKI",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.21024586448054",
+    "long": "36.9210420064116"
+  },
+  {
+    "id": "576",
+    "ward": "MWIHOKO",
+    "constituency": "RUIRU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.21499055267535",
+    "long": "36.9810722124413"
+  },
+  {
+    "id": "580",
+    "ward": "NGEWA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.078365962429",
+    "long": "36.837260995851",
+    "sublocation": "Kiambururu"
+  },
+  {
+    "id": "580",
+    "ward": "NGEWA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.078365962429",
+    "long": "36.837260995851",
+    "sublocation": "Nyaga"
+  },
+  {
+    "id": "580",
+    "ward": "NGEWA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.078365962429",
+    "long": "36.837260995851",
+    "sublocation": "Kimathi"
+  },
+  {
+    "id": "580",
+    "ward": "NGEWA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.078365962429",
+    "long": "36.837260995851",
+    "sublocation": "Giathieko"
+  },
+
+
+  {
+    "id": "581",
+    "ward": "KOMOTHAI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.03804691408095",
+    "long": "36.8355240146944",
+    "sublocation": "Gathugu"
+  },
+
+  {
+    "id": "581",
+    "ward": "KOMOTHAI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.03804691408095",
+    "long": "36.8355240146944",
+    "sublocation": "Karatina"
+  },
+
+  {
+    "id": "581",
+    "ward": "KOMOTHAI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.03804691408095",
+    "long": "36.8355240146944",
+    "sublocation": "Kibichoi"
+  },
+
+  {
+    "id": "581",
+    "ward": "KOMOTHAI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.03804691408095",
+    "long": "36.8355240146944",
+    "sublocation": "Thuita"
+  },
+
+  {
+    "id": "581",
+    "ward": "KOMOTHAI",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.03804691408095",
+    "long": "36.8355240146944",
+    "sublocation": "Mbari ya Igi"
+  },
+
+  {
+    "id": "578",
+    "ward": "GITHIGA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.07334498371523",
+    "long": "36.7226024714128",
+    "sublocation": "Gitiha"
+  },
+
+  {
+    "id": "578",
+    "ward": "GITHIGA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.07334498371523",
+    "long": "36.7226024714128",
+    "sublocation": "Gathangari"
+  },
+
+  {
+    "id": "578",
+    "ward": "GITHIGA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.07334498371523",
+    "long": "36.7226024714128",
+    "sublocation": "Matuguta"
+  },
+
+  {
+    "id": "578",
+    "ward": "GITHIGA",
+    "constituency": "GITHUNGURI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.07334498371523",
+    "long": "36.7226024714128",
+    "sublocation": "Githigi"
+  },
+
+
+  {
+    "id": "584",
+    "ward": "RIABAI",
+    "constituency": "KIAMBU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.15950422114334",
+    "long": "36.8354319027721"
+  },
+  {
+    "id": "585",
+    "ward": "TOWNSHIP",
+    "constituency": "KIAMBU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.02020460501955",
+    "long": "37.0215550112755"
+  },
+  {
+    "id": "588",
+    "ward": "NDENDERU",
+    "constituency": "KIAMBAA",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.19559075019645",
+    "long": "36.7453611843148"
+  },
+  {
+    "id": "589",
+    "ward": "MUCHATHA",
+    "constituency": "KIAMBAA",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.18416503625312",
+    "long": "36.7780897467001"
+  },
+  {
+    "id": "591",
+    "ward": "GITARU",
+    "constituency": "KABETE",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.23163182339401",
+    "long": "36.6915702476971"
+  },
+  {
+    "id": "590",
+    "ward": "KIHARA",
+    "constituency": "KIAMBAA",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.21387702525593",
+    "long": "36.7658713116587"
+  },
+  {
+    "id": "593",
+    "ward": "NYADHUNA",
+    "constituency": "KABETE",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.19933901348341",
+    "long": "36.7084016993191"
+  },
+  {
+    "id": "592",
+    "ward": "MUGUGA",
+    "constituency": "KABETE",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.20438231488019",
+    "long": "36.6748209747416"
+  },
+  {
+    "id": "594",
+    "ward": "KABETE",
+    "constituency": "KABETE",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.22680908428827",
+    "long": "36.7249610741681"
+  },
+  {
+    "id": "596",
+    "ward": "KARAI",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.27514981123283",
+    "long": "36.646432811779",
+    "sublocation": "Karai"
+  },
+  {
+    "id": "596",
+    "ward": "KARAI",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.27514981123283",
+    "long": "36.646432811779",
+    "sublocation": "Gikambura"
+  },
+  {
+    "id": "596",
+    "ward": "KARAI",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.27514981123283",
+    "long": "36.646432811779",
+    "sublocation": "Gitiba"
+  },
+  {
+    "id": "597",
+    "ward": "NACHU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25085442837012",
+    "long": "36.5795410593255",
+    "sublocation": "Nachu"
+  },
+  {
+    "id": "597",
+    "ward": "NACHU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25085442837012",
+    "long": "36.5795410593255",
+    "sublocation": "Renguti"
+  },
+  {
+    "id": "597",
+    "ward": "NACHU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25085442837012",
+    "long": "36.5795410593255",
+    "sublocation": "Lus Ingeti"
+  },
+  {
+    "id": "597",
+    "ward": "NACHU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25085442837012",
+    "long": "36.5795410593255",
+    "sublocation": "Kari"
+  },
+
+  {
+    "id": "598",
+    "ward": "SIGONA",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.18686970176098",
+    "long": "36.6361625242878",
+    "sublocation": "Sigona"
+  },
+  {
+    "id": "598",
+    "ward": "SIGONA",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.18686970176098",
+    "long": "36.6361625242878",
+    "sublocation": "Muguga"
+  },
+  {
+    "id": "598",
+    "ward": "SIGONA",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.18686970176098",
+    "long": "36.6361625242878",
+    "sublocation": "Kurwa"
+  },
+
+  {
+    "id": "599",
+    "ward": "KIKUYU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25432789620984",
+    "long": "36.6613849799439",
+    "sublocation": "Kikuyu Township"
+  },
+  {
+    "id": "599",
+    "ward": "KIKUYU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25432789620984",
+    "long": "36.6613849799439",
+    "sublocation": "Thogoto"
+  },
+  {
+    "id": "599",
+    "ward": "KIKUYU",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25432789620984",
+    "long": "36.6613849799439",
+    "sublocation": "Gitaru"
+  },
+
+  {
+    "id": "600",
+    "ward": "KINOO",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25081189946883",
+    "long": "36.6909274938675",
+    "sublocation": "Kinoo"
+  },
+  {
+    "id": "600",
+    "ward": "KINOO",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25081189946883",
+    "long": "36.6909274938675",
+    "sublocation": "Uthiru"
+  },
+  {
+    "id": "600",
+    "ward": "KINOO",
+    "constituency": "KIKUYU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.25081189946883",
+    "long": "36.6909274938675",
+    "sublocation": "kanyaro"
+  },
+  {
+    "id": "602",
+    "ward": "LIMURU CENTRAL",
+    "constituency": "LIMURU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.12744376987869",
+    "long": "36.627392086003"
+  },
+  {
+    "id": "603",
+    "ward": "NDEIYA",
+    "constituency": "LIMURU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.16649359493744",
+    "long": "36.5721484404594"
+  },
+  {
+    "id": "606",
+    "ward": "KINALE",
+    "constituency": "LARI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.875620956824019",
+    "long": "36.6551809348917"
+  },
+  {
+    "id": "604",
+    "ward": "LIMURU EAST",
+    "constituency": "LIMURU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.10424553322681",
+    "long": "36.689425578044"
+  },
+  {
+    "id": "605",
+    "ward": "NGECHA TIGONI",
+    "constituency": "LIMURU",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.15427241888832",
+    "long": "36.6838236154953"
+  },
+  {
+    "id": "608",
+    "ward": "NYANDUMA",
+    "constituency": "LARI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.989576019530653",
+    "long": "36.7350149652221"
+  },
+  {
+    "id": "607",
+    "ward": "KIJABE",
+    "constituency": "LARI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-0.961663759710852",
+    "long": "36.6454078365341"
+  },
+  {
+    "id": "610",
+    "ward": "LARI/KIRENGA",
+    "constituency": "LARI",
+    "county": "KIAMBU",
+    "country": "Kenya",
+    "lat": "-1.02898449381281",
+    "long": "36.6375730847167"
+  }
+]
