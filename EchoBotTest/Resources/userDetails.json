@@ -1,18 +1,284 @@
-{
-  "Name": "w",
-  "County": "KIAMBU",
-  "SubCounty": "RUIRU",
-  "Ward": "GATONGORA"
-}{
-  "Name": "w",
-  "County": "KIAMBU",
-  "SubCounty": "GITHUNGURI",
-  "Ward": "KOMOTHAI"
-}{
-  "Name": "w",
+[
+  {
+    "Name": "w",
+    "County": "KIAMBU",
+    "SubCounty": "RUIRU",
+    "Ward": "GATONGORA"
+  },
+  {
+    "Name": "w",
+    "County": "KIAMBU",
+    "SubCounty": "GITHUNGURI",
+    "Ward": "KOMOTHAI"
+  },
+  {
+    "Name": "w",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "Wanjiku897",
+    "Password": "wanjiku897#"
+  },
+  {
+    "Name": "Wanjiku",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "KIAMWANGI",
+    "UserName": "wanjiku23",
+    "Password": "wanjiku23#"
+  },
+  {
+    "Name": "mercy",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "KIAMWANGI",
+    "UserName": "merc234",
+    "Password": "merc567"
+  },
+  {
+    "Name": "Stella Mwende",
+    "County": "KIAMBU",
+    "SubCounty": "RUIRU",
+    "Ward": "GATONGORA",
+    "UserName": "Stel23",
+    "Password": "Stellamwende23"
+  },
+  {
+    "Name": "david john",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "GATUANYAGA",
+    "UserName": "davejon1234",
+    "Password": "4321nojevad"
+  },
+  {
+    "Name": "Spencer Martins",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "HOSPITAL",
+    "UserName": "SpenserMartins",
+    "Password": "sm123467"
+  },
+  {
+    "Name": "queen lady",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "ladyqueen",
+    "Password": "lq89"
+  },
+  {
+    "Name": "rtuy",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "rty87",
+    "Password": "rty87"
+  },
+  {
+    "Name": "we",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "GATUANYAGA",
+    "UserName": "wr",
+    "Password": "sf"
+  },
+  {
+    "Name": "gll",
+    "County": "KIAMBU",
+    "SubCounty": "GITHUNGURI",
+    "Ward": "KOMOTHAI",
+    "UserName": "klyly",
+    "Password": "ipj"
+  },
+  {
+    "Name": "iugo",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "GATUANYAGA",
+    "UserName": "oiyy",
+    "Password": "uyrur"
+  },
+  {
+    "Name": "ok",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "GATUANYAGA",
+    "UserName": "jo",
+    "Password": "yoi"
+  },
+  {
+    "Name": "hoi",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "iuoi",
+    "Password": "iyoi"
+  },
+  {
+    "Name": "iyi'",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "h'o",
+    "Password": "yt"
+  },
+  {
+    "Name": "wr",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "grh",
+    "Password": "egg"
+  },
+  {
+    "Name": "wanjiku",
+    "County": "KIAMBU",
+    "SubCounty": "THIKA TOWN",
+    "Ward": "GATUANYAGA",
+    "UserName": "wanjiku09",
+    "Password": "548760"
+  },
+  {
+    "Name": "eric",
+    "County": "KIAMBU",
+    "SubCounty": "GATUNDU SOUTH",
+    "Ward": "NGENDA",
+    "UserName": "eric44",
+    "Password": "sgdg"
+  },
+  {
+    "Name": "wanjiku",
+    "County": "KIAMBU",
+    "SubCounty": "RUIRU",
+    "Ward": "GATONGORA",
+    "UserName": "wanjiku123",
+    "Password": "wafehtrj"
+  }
+]{
+  "Name": "janet",
   "County": "KIAMBU",
   "SubCounty": "GATUNDU SOUTH",
   "Ward": "NGENDA",
-  "UserName": "Wanjiku897",
-  "Password": "wanjiku897#"
+  "UserName": "janet3",
+  "Password": "janet234"
+}{
+  "Name": "Wanjiku",
+  "County": "KIAMBU",
+  "SubCounty": "RUIRU",
+  "Ward": "KAHAWA/SUKARI",
+  "UserName": "wanjiku123",
+  "Password": "wanjiku1234"
+}{
+  "Name": "yoweri musa",
+  "County": "KIAMBU",
+  "SubCounty": "GATUNDU SOUTH",
+  "Ward": "KIAMWANGI",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "rt",
+  "County": "MOMBASA",
+  "SubCounty": "LIKONI",
+  "Ward": "SHIKA ADABU",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "fiona",
+  "County": "MOMBASA",
+  "SubCounty": "KISAUNI",
+  "Ward": "KISAUNI",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "richard",
+  "County": "MOMBASA",
+  "SubCounty": "JOMVU",
+  "Ward": "",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "fiona",
+  "County": "MOMBASA",
+  "SubCounty": "CHANGAMWE",
+  "Ward": "TUDOR FOUR",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "queen",
+  "County": "MOMBASA",
+  "SubCounty": "LIKONI",
+  "Ward": "SHIKA ADABU",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "grace",
+  "County": "MOMBASA",
+  "SubCounty": "JOMVU",
+  "Ward": "",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "peter",
+  "County": "KIAMBU",
+  "SubCounty": "GATUNDU SOUTH",
+  "Ward": "KIAMWANGI",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "t",
+  "County": "MOMBASA",
+  "SubCounty": "KISAUNI",
+  "Ward": "KISAUNI",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "r",
+  "County": "KIAMBU",
+  "SubCounty": "RUIRU",
+  "Ward": "GATONGORA",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "er",
+  "County": "MOMBASA",
+  "SubCounty": "CHANGAMWE",
+  "Ward": "TUDOR FOUR",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "d",
+  "County": "MOMBASA",
+  "SubCounty": "MVITA",
+  "Ward": "MWEMBE TAYARI",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "dru",
+  "County": "MOMBASA",
+  "SubCounty": "LIKONI",
+  "Ward": "SHIKA ADABU",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "tre",
+  "County": "MOMBASA",
+  "SubCounty": "LIKONI",
+  "Ward": "SHIKA ADABU",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "y",
+  "County": "KIAMBU",
+  "SubCounty": "GATUNDU SOUTH",
+  "Ward": "NGENDA",
+  "UserName": null,
+  "Password": null
+}{
+  "Name": "h",
+  "County": "MOMBASA",
+  "SubCounty": "LIKONI",
+  "Ward": "MTONGWE",
+  "UserName": null,
+  "Password": null
 }

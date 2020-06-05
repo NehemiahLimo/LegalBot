@@ -774,5 +774,276 @@
     "country": "Kenya",
     "lat": "-1.02898449381281",
     "long": "36.6375730847167"
+  },
+  {
+    "ward": "TUDOR FOUR",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "TUDOR ESTATE",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "PORT REITZ",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MIRITINI",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MIKINDANI",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KIPEVU",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "JOMVU KUU",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "CHANGAMWE",
+    "constituency": "CHANGAMWE",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "",
+    "constituency": "JOMVU",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "BAMBURI",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "GANJONI",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KISAUNI",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KONGOWEA",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MAJENGO",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MOMBASA OLD TOWN",
+    "constituency": "KISAUNI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "GANJONI",
+    "constituency": "LIKONI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "LIKONI",
+    "constituency": "LIKONI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MTONGWE",
+    "constituency": "LIKONI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "SHIKA ADABU",
+    "constituency": "LIKONI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "BONDENI",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KING'ORANI",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "TONONOKA",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MAJENGO",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MWEMBE TAYARI",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "SHIMANZI",
+    "constituency": "MVITA",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "FRERE TOWN",
+    "constituency": "NYALI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "ZIWA LA NG'OMBE",
+    "constituency": "NYALI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "MKOMANI",
+    "constituency": "NYALI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KONGOWEA",
+    "constituency": "NYALI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
+  },
+  {
+    "ward": "KADZANDANI",
+    "constituency": "NYALI",
+    "county": "MOMBASA",
+    "country": "Kenya",
+    "lat": "",
+    "long": "",
+    "sublocation": ""
   }
+
 ]

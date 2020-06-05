@@ -33,14 +33,14 @@ namespace LegalBotTest.Dialogs
             };
 
             //Add Named Dialogs
-            //AddDialog(new SurveyDialog($"{nameof(MainDialog)}.survey", _botStateService));
+            AddDialog(new SurveyDialog($"{nameof(MainDialog)}.survey", _botStateService));
             AddDialog(new UserRegistrationDialog($"{nameof(MainDialog)}.userRegistration", _botStateService));
 
             AddDialog(new WaterfallDialog(nameof(MainDialog), waterfallSteps));
 
             //Set the starting Dialog
             InitialDialogId = nameof(MainDialog);
-
+           
         }
 
         private async Task<DialogTurnResult> InitialStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)

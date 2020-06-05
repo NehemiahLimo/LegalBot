@@ -19,11 +19,13 @@ namespace LegalBotTest.Services
         public static string UserProfileId { get; } = $"{nameof(BotStateService)}.UserProfile";
         //public static string ConversationDataId { get; } = $"{nameof(BotStateService)}.ConversationData";
         public static string DialogStateId { get; } = $"{nameof(BotStateService)}.DialogState";
+        public static string SurveyDataId { get; } = $"{nameof(BotStateService)}.SurveyData";
 
         //Accessors
         public IStatePropertyAccessor<UserProfile> UserProfileAccessor { get; set; }
         //public IStatePropertyAccessor<ConversationData> ConversationDataAccessor { get; set; }
         public IStatePropertyAccessor<DialogState> DialogStateAccessor { get; set; }
+        public IStatePropertyAccessor<SurveyData> SurveyDataAccessor { get; set; }
 
         public BotStateService(ConversationState conversationState, UserState userState)
         {
@@ -43,6 +45,9 @@ namespace LegalBotTest.Services
 
             //Initialize Dialog accessor
             DialogStateAccessor = UserState.CreateProperty<DialogState>(DialogStateId);
+
+            //Initialize Dialog accessor
+            SurveyDataAccessor = UserState.CreateProperty<SurveyData>(SurveyDataId);
         }
 
         #endregion
